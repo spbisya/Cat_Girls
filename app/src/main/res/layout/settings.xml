@@ -9,19 +9,26 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/editText"
-        android:hint="Имя" />
+        android:hint="Имя"
+        android:visibility="visible"
+        android:textColor="#000000"
+        android:text="Джигурда" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/editText2"
-        android:hint="Цвет волос" />
+        android:hint="Цвет волос"
+        android:textColor="#000000"
+        android:text="Пиздахуй" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/editText3"
-        android:hint="Цвет глаз" />
+        android:hint="Цвет глаз"
+        android:textColor="#000000"
+        android:text="Хуйпизда" />
 
     <Button
         android:layout_width="wrap_content"
